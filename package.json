@@ -1,0 +1,28 @@
+{
+  "name": "tankapp",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mikhaylets-artem/tankapp.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/mikhaylets-artem/tankapp/issues"
+  },
+  "homepage": "https://github.com/mikhaylets-artem/tankapp#readme",
+  "devDependencies": {
+    "gulp": "^4.0.2"
+  },
+  "dependencies": {
+    "del": "^6.0.0",
+    "gulp-clean-css": "^4.3.0",
+    "gulp-sass": "^5.0.0",
+    "sass": "^1.42.1"
+  }
+}

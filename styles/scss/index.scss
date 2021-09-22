@@ -1,0 +1,65 @@
+// import
+@import url('https://fonts.googleapis.com/css2?family=Nunito:wght@200&display=swap');
+//
+$ff-default: 'Nunito', sans-serif;
+$fsz-logo:35px;
+$fc-default:'#2D394C';
+body{
+    font-family: $ff-default;
+}
+.container_main{
+    margin: 0 auto;
+}
+
+
+// header
+.header{
+    padding: 10px 0;
+    display: flex;
+    flex-direction: row;
+    justify-content:  space-evenly;
+
+ 
+}
+.header_links{
+    display: flex;
+    flex-direction: row;
+    list-style: none;
+    justify-content: center;
+    width: 100%;
+  
+}
+.header_links{
+li{
+    font-size: 20px;
+    padding: 0 20px;
+        a{
+        text-decoration: none;
+         }
+         a:hover{
+             color: black;
+             text-decoration: underline;
+         }
+}}
+.header_logo{
+    padding-left: 30px;
+    width: 100%;
+    font-size: $fsz-logo;
+    display: flex;
+    justify-content: flex-start;
+   
+  
+}
+
+.logo_desc{
+    color: slateblue;
+}
+.fa-fire{
+    color: rgb(255, 208, 0);
+}
+
+
+
+
+
+//
